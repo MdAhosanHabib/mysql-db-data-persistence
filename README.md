@@ -1,7 +1,7 @@
 # AWS Elastic Block Storage (EBS) use for MySQL data persistence on two separate EC2 instances
 Here created an EC2 instance on AWS, attached a 30GB EBS volume to it, and deployed a MySQL Docker instance on that EC2 instance. After creating and populating a database on this instance, detached the EBS volume and attached it to a second EC2 instance. Upon checking the data on the second instance, confirmed the successful migration of the MySQL database. This demonstrates how to move data between EC2 instances using EBS volumes while maintaining data integrity and availability.
 
-<img width="408" alt="AWS_EBS_MySQL" src="https://github.com/MdAhosanHabib/mysql-db-data-persistence/assets/43145662/9cf29a71-5d71-4153-a842-7fadecf75ebf">
+<img width="474" alt="AWS_EBS_MySQL2" src="https://github.com/MdAhosanHabib/mysql-db-data-persistence/assets/43145662/b8f36817-6c1f-4726-ac4c-062ab9e0ecb5">
 
 ## Step 1: Creating 2 EC2 instances on AWS
 <img width="960" alt="1" src="https://github.com/MdAhosanHabib/mysql-db-data-persistence/assets/43145662/2158b469-1818-4b74-8f88-977ac29c75c3">
